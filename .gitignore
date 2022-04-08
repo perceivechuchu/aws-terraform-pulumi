@@ -1,0 +1,21 @@
+/.apt_generated/
+/target/
+/.settings/
+/.classpath
+/.factorypath
+/.project
+
+# User-specific stuff:
+.idea
+.idea/
+.idea/libraries
+
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+*.iml
+/dir.txt
+
+terraform/dev/.terraform*

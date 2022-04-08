@@ -1,0 +1,14 @@
+Steps:
+1) Download Terraform: https://releases.hashicorp.com/terraform/1.1.7/terraform_1.1.7_linux_amd64.zip
+2) Extract downloaded binary
+3) Move terraform executable file to: /usr/local/bin/
+4) Test installation by command : > terraform -v
+5) Write code to provision infrastructure using Harshicorp language, in this case EC2 instance.
+6) First command is > terraform init (that command scans through the configs and locate the provider and download the Provider plugins to interact with that Provider. In our case provider is AWS)
+7) Then run Terraform Plan command: > terraform plan. (What this command does is it dry runs your code and shows you the changes you are about to make e.g delete or create instance). This command is optional but it is recommended to always run it.
+8) To apply this on AWS execute the following command: > terraform apply
+9) The second time you execute apply, terraform refreshes and checkes if there are any changes in th script and updates the infrastructure
+10) To remove the created instance run > terraform destroy
+
+
+Link: https://www.youtube.com/watch?v=SLB_c_ayRMo

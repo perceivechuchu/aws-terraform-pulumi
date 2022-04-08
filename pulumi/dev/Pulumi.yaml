@@ -1,0 +1,6 @@
+name: pulumi-tutorial
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: pulumi tutorial
