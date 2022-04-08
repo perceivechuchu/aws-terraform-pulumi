@@ -16,7 +16,7 @@ Steps:
    - $ pulumi new aws-python 
    - command syntax: (provider-language)
 
-3) Deploy your Pulumi project
+4) Deploy your Pulumi project
    $ pulumi up (spawns up the infastructure)
     - login to pulumi
     - enter project name
@@ -24,9 +24,9 @@ Steps:
     - enter stack name
     - enter region name: af-south-1
 
-4) Destroy Infrastructure:
+5) Destroy Infrastructure:
    $ pulumi destroy
 
-5) Documentation: 
+6) Documentation: 
    - https://www.pulumi.com/docs/
    - https://www.pulumi.com/registry/packages/aws/api-docs/ec2/instance/
