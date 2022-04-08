@@ -9,6 +9,3 @@ Steps:
 8) To apply this on AWS execute the following command: > terraform apply
 9) The second time you execute apply, terraform refreshes and checkes if there are any changes in th script and updates the infrastructure
 10) To remove the created instance run > terraform destroy
-
-
-Link: https://www.youtube.com/watch?v=SLB_c_ayRMo

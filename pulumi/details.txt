@@ -30,11 +30,3 @@ Steps:
 5) Documentation: 
    - https://www.pulumi.com/docs/
    - https://www.pulumi.com/registry/packages/aws/api-docs/ec2/instance/
-
-
-
-
-
-
-Extra Links:
-- Link: https://www.learnaws.org/2021/06/19/pulumi-python-ec2/
