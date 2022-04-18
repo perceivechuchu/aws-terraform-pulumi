@@ -1,0 +1,3 @@
+name: aws_ts_ec2_provision
+runtime: nodejs
+description: provision aws ec2 infrastructure
