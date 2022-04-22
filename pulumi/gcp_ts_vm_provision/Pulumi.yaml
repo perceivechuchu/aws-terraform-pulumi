@@ -1,0 +1,3 @@
+name: gcp_ts_ec2_provision
+runtime: nodejs
+description: provision gcp instance with typescript

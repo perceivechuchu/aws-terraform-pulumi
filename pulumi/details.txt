@@ -12,8 +12,11 @@ Steps:
    - export AWS_ACCESS_KEY_ID=<YOUR_ACCESS_KEY_ID> 
    - export AWS_SECRET_ACCESS_KEY=<YOUR_SECRET_ACCESS_KEY>
 
+   GCP:
+   gcloud auth application-default login
+
 3) Create your Pulumi Project 
-   - $ pulumi new aws-python 
+   - $ pulumi new aws-typescript 
    - command syntax: (provider-language)
 
 4) Deploy your Pulumi project
@@ -30,3 +33,19 @@ Steps:
 6) Documentation: 
    - https://www.pulumi.com/docs/
    - https://www.pulumi.com/registry/packages/aws/api-docs/ec2/instance/
+
+
+Install CLI:
+- curl -O https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-cli-381.0.0-linux-arm.tar.gz
+- Configure login: gcloud auth application-default login
+- Enable Compute Engine API from Google Cloud Console
+- Enable billing
+
+Install Azure CLI:
+- curl -L https://aka.ms/InstallAzureCli | bash
+- Configure:
+  $ pulumi config set azure-native:location westus
+  $ pulumi config set username webmaster
+  $ pulumi config set password --secret <your-password> 
+- az login
+- npm install @pulumi/azure 

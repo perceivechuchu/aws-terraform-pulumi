@@ -1,0 +1,5 @@
+config:
+  azure-native:location: westus
+  azure_ts_instance_provision:password:
+    secure: AAABAHfvLU04MVIS9gFGjbcCcnlpxrbn+6/Rcm/iaefn1nSPELd5
+  azure_ts_instance_provision:username: pchuchu@jhb.dvt.co.za
